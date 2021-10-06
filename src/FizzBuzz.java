@@ -8,7 +8,7 @@ public class FizzBuzz {
         } else if (number % 5 == 0) {
             outputStr = "Buzz";
         } else
-            System.out.println(number);
+            System.out.print(number);
 
         return outputStr;
     }
