@@ -1,15 +1,15 @@
 public class FizzBuzz {
     public static String checkOutPut(int number) {
-
+        String outputStr = "";
         if (number % 3 == 0 && number % 5 == 0) {
-            System.out.println("FizzBuzz");
+            outputStr ="FizzBuzz";
         } else if (number % 3 == 0) {
-            System.out.println("Fizz");
+            outputStr = "Fizz";
         } else if (number % 5 == 0) {
-            System.out.println("Buzz");
+            outputStr = "Buzz";
         } else
             System.out.println(number);
-        String outputStr = "";
+
         return outputStr;
     }
 
